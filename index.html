@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+  <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="my_container">
+    <div class="bg">
+      <div class="bg_in">
+        <h1 class="my_slogn">Constantly plan and find your life, and think of yourself as important.</h1>
+        <h3 class="my_slogn_cn">不断规划与寻找自己的人生,想法把自己变重要</h3>
+        <h1 class="my_name">Hello I'm xiaoxiao</h1>
+        <a href="#nav" type="button" class="btn btn-info" id="btn_about">关于我</a>
+      </div>
+    </div>
+  </div>
+  <!-- navbar-fixed-top -->
+  <div class="main">
+    <nav class="navbar navbar-inverse" id="nav">
+      <div class="container-fluid ">
+        <div class="navbar-header navbar-left">
+          <a class="navbar-brand" href="https://blog.csdn.net/weixin_45397462"><i
+              class="glyphicon glyphicon-pencil"></i>技术博客</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav ">
+            <li class="active"><a href="#">关于我</a></li>
+            <li><a href="#like">求职意向</a></li>
+            <li><a href="#jineng">技术掌握</a></li>
+            <li><a href="#project">我的经历</a></li>
+            <li class="wechat"><a href="#linkme"><i class="glyphicon glyphicon-earphone"></i>联系我</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="my_wx"><img src="./images/me.png" alt=""></div>
+    <div class="my_pic"><img src="./images/wo.jpg" alt="..." class="img-circle"></div>
+    <div class="my_produce">
+      <div class="name img-circle">肖雄</div>
+      <div class="age img-circle">24</div>
+      <div class="work img-circle">Web前端</div>
+      <div class="address img-circle">深圳</div>
+    </div>
+  </div>
+  <!-- 求职意向 -->
+  <div class="like" id="like">
+    <h2>求职意向</h2>
+    <span class="line"></span>
+    <div class="skill">
+      <div class="skill01">
+        <i class="glyphicon glyphicon-picture"></i><br>
+        <span class="tool">微信小程序</span><br>
+        <div class="detail">通过第三方插件实现微信小程序开发</div>
+      </div>
+      <div class="skill02"><i class="glyphicon glyphicon-cog"></i><br>
+        <span class="tool">html网页制作</span><br>
+        <div class="detail">通过bootstrap,element-ui实现响应式布局</div>
+      </div>
+      <div class="skill03"><i class="glyphicon glyphicon-wrench"></i><br>
+        <span class="tool">界面交互</span>
+        <br>
+        <div class="detail">通过js实现界面交互,ajax获取数据</div>
+      </div>
+      <div class="skill04"><i class="glyphicon glyphicon-phone"></i><br>
+        <span class="tool">移动web</span>
+        <br>
+        <div class="detail">通过rem实现移动端界面的响应式布局</div>
+      </div>
+    </div>
+  </div>
+  <!-- 专业技能 -->
+  <div class="jineng" id="jineng">
+    <h2>技术掌握</h2>
+    <span class="line"></span>
+
+    <h4><span class="label label-warning">熟悉vueJS主流MVC、MVVM框架,并且能结合elementUI、iVew、eCharts做后台项目/span></h3>
+        <h4><span class="label label-info">掌握localStorage、sessionStorage等前端存储方案，记录用户操作习惯或常用数据，从而降低HTTP请求，提升用户体验</span>
+          </h3>
+          <h4><span class="label label-primary">掌握JSONP和CORS等跨域解决方案</span></h3>
+            <h4><span class="label label-success">熟练使用git版本控制工具，进行代码管理，实现敏捷开发；</span></h4>
+            <h4><span class="label label-info">熟练使用Bootstarp框架，通过栅格系统快速布局响应式页面以适应不同设备</span></h3>
+              <h4><span class="label label-warning">熟练使用Ajax，实现异步页面无刷新抽取数据，同步校验数据</span></h4>
+              <h4><span class="label label-danger">熟练使用jQuery框架，实现页面的交互效果，提高用户体验</span></h4>
+              <h4><span
+                  class="label label-default">熟练使用HTML、CSS、JavaScript等前端技术，完成网页静态布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验</span>
+              </h4>
+
+  </div>
+  <!-- 我的经历 -->
+  <div class="project" id="project">
+    <h2>我的经历</h2>
+    <span class="line"></span>
+    <ul class="box">
+      <li class="box1">
+        <div class="mask">
+          <img src="./images/a.jpg" alt="">
+        </div>
+      </li>
+      <li class="box1">
+        <div class="mask">
+          <img src="./images/b.jpg" alt="">
+        </div>
+      </li>
+      <li class="box1">
+        <div class="mask">
+          <img src="./images/c.jpg" alt="">
+        </div>
+      </li>
+      <li class="box1">
+        <div class="mask">
+          <img src="./images/d.jpg" alt="">
+        </div>
+      </li>
+      <li class="box1">
+        <div class="mask">
+          <img src="./images/e.jpg" alt="">
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <!-- 联系我 -->
+  <div class="linkme" id="linkme">
+    <i class="glyphicon glyphicon-earphone"></i>
+    <span class="tel">175-8557-0494</span><br>
+  </div>
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script>
+
+    $('.btn_about').click(function () {
+      $('.my_container').remove()
+    })
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() >= $('.bg').height()) {
+        $('#nav').css({
+          width: '100%',
+          position: 'fixed',
+          left: 0,
+          top: 0
+        })
+      }
+      if ($(window).scrollTop() < $('.bg').height()) {
+        $('#nav').css({
+          position: ''
+        })
+      }
+    })
+
+    $('.box li').mouseenter(function () {
+      $(this).stop(true).animate({
+        width: 800
+      }, 600).siblings().stop(true).animate({
+        width: 100
+      }, 600)
+    })
+
+    $('#project').mouseleave(function () {
+      $('.box li').stop(true).animate({
+        width: 240
+      }, 600)
+    })
+
+    $('.wechat').mouseenter(function () {
+      $('.my_wx').css({
+        display: 'block'
+      })
+    })
+    $('.wechat').mouseleave(function () {
+      $('.my_wx').css({
+        display: 'none'
+      })
+    })
+
+  </script>
+</body>
+
+</html>

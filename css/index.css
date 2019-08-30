@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.my_wx{
+  width: 130px;
+  position: absolute;
+  right: 20px;
+  top: 680px;
+  display: none;
+}
+.my_wx img{
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.my_container {
+  width: 100%;
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background: url(../images/07.jpg);
+  background-size: 100% 100%;
+  animation: pulse 6s ease;
+}
+
+.bg_in {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: .8;
+  text-align: center;
+  overflow: hidden;
+}
+
+.my_slogn {
+  margin-top: 150px;
+  font-size: 60px;
+  line-height: 1;
+  opacity: .7;
+  animation: rotateIn 3s ease;
+}
+
+.my_slogn_cn {
+  font-size: 40px;
+  opacity: .8;
+  animation: slideInUp 3s ease;
+}
+
+.my_name {
+  font-size: 40px;
+  opacity: .8;
+  animation: zoomIn 3s ease;
+}
+
+.btn-info {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.glyphicon {
+  margin-right: 10px;
+}
+
+.my_pic {
+  width: 200px;
+  height: 200px;
+  margin: 150px auto 0;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+}
+
+.my_produce {
+  width: 300px;
+  height: 300px;
+  margin: -260px auto;
+  position: relative;
+  opacity: .5;
+  font-weight: 700;
+}
+
+
+.name {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  position: absolute;
+  left: -20px;
+  top: 150px;
+  line-height: 60px;
+  text-align: center;
+  animation: shake 17s infinite;
+
+}
+
+.age {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  line-height: 60px;
+  text-align: center;
+  animation: shake 13s infinite;
+
+}
+
+.work {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 180px;
+  top: 0px;
+  line-height: 60px;
+  text-align: center;
+  animation: shake 15s infinite;
+
+}
+
+.address {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 260px;
+  top: 140px;
+  line-height: 60px;
+  text-align: center;
+  animation: shake 13s infinite;
+}
+
+
+.like {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+
+}
+
+.like h2 {
+  margin-top: 300px;
+  font-weight: 700;
+}
+
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 5px;
+  background-color: #f0ad4e;
+}
+
+.like .skill {
+  width: 100%;
+  padding: 0 200px;
+  display: flex;
+}
+
+.like .skill div {
+  flex: 1;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.like .skill .tool {
+  font-size: 18px;
+  line-height: 1;
+
+}
+
+.like .skill .detail {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.jineng {
+  width: 100%;
+  height: 300px;
+  margin-top: -150px;
+  text-align: center;
+}
+
+.jineng h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.jineng .line {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.project {
+  width: 1200px;
+  height: 400px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.project ul {
+  width: 100%;
+  height: 100%;
+}
+
+.project li {
+  height: 100%;
+  width: 20%;
+  float: left;
+  box-shadow: -3px -3px 5px rgb(161, 157, 157), 2px 2px 5px #ccc;
+}
+
+.project li .mask {
+  width: 100%;
+  height: 100%;
+}
+
+.project li .mask img {
+  width: 100%;
+  height: 100%;
+}
+.project h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.project .line {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.linkme{
+  width: 100%;
+  height: 100px;
+  background-color: #272822;
+  color: #fff;
+  text-align: center;
+ 
+}
+.linkme .glyphicon-earphone{
+  font-size: 24px;
+  opacity: .6;
+  margin-top: 20px;
+}
+.linkme .tel{
+  font-size:20px;
+  opacity: .6;
+}
+
+
+@keyframes shake {
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
