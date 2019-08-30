@@ -82,19 +82,16 @@
   <div class="jineng" id="jineng">
     <h2>技术掌握</h2>
     <span class="line"></span>
-
-    <h4><span class="label label-warning">熟悉vueJS主流MVC、MVVM框架,并且能结合elementUI、iVew、eCharts做后台项目/span></h3>
-        <h4><span class="label label-info">掌握localStorage、sessionStorage等前端存储方案，记录用户操作习惯或常用数据，从而降低HTTP请求，提升用户体验</span>
-          </h3>
-          <h4><span class="label label-primary">掌握JSONP和CORS等跨域解决方案</span></h3>
-            <h4><span class="label label-success">熟练使用git版本控制工具，进行代码管理，实现敏捷开发；</span></h4>
-            <h4><span class="label label-info">熟练使用Bootstarp框架，通过栅格系统快速布局响应式页面以适应不同设备</span></h3>
-              <h4><span class="label label-warning">熟练使用Ajax，实现异步页面无刷新抽取数据，同步校验数据</span></h4>
-              <h4><span class="label label-danger">熟练使用jQuery框架，实现页面的交互效果，提高用户体验</span></h4>
-              <h4><span
-                  class="label label-default">熟练使用HTML、CSS、JavaScript等前端技术，完成网页静态布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验</span>
-              </h4>
-
+    <h4><span class="label label-warning">熟悉vueJS主流MVC、MVVM框架,并且能结合elementUI、iVew、eCharts做后台项目/span></h4>
+    <h4><span class="label label-info">掌握localStorage、sessionStorage等前端存储方案，记录用户操作习惯或常用数据，从而降低HTTP请求，提升用户体验</span>
+    </h4>
+    <h4><span class="label label-primary">掌握JSONP和CORS等跨域解决方案</span></h4>
+    <h4><span class="label label-success">熟练使用git版本控制工具，进行代码管理，实现敏捷开发；</span></h4>
+    <h4><span class="label label-info">熟练使用Bootstarp框架，通过栅格系统快速布局响应式页面以适应不同设备</span></h4>
+    <h4><span class="label label-warning">熟练使用Ajax，实现异步页面无刷新抽取数据，同步校验数据</span></h4>
+    <h4><span class="label label-danger">熟练使用jQuery框架，实现页面的交互效果，提高用户体验</span></h4>
+    <h4><span class="label label-default">熟练使用HTML、CSS、JavaScript等前端技术，完成网页静态布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验</span>
+    </h4>
   </div>
   <!-- 我的经历 -->
   <div class="project" id="project">
@@ -182,6 +179,17 @@
       })
     })
 
+    $('h4').mouseenter(function(){
+        $(this).css({
+          "font-size":'24px',
+          "cursor":'pointer'
+        })
+    })
+    $('h4').mouseleave(function(){
+        $(this).css({
+          "font-size":'14px'
+        })
+    })
   </script>
 </body>
 
